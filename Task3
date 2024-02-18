@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-image: url(https://assets.aboutamazon.com/dims4/default/a4363ab/2147483647/strip/true/crop/1919x1080+1+0/resize/1860x1047!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F2d%2F49%2Fabd3719b41aea4605bb51e4d8d72%2Fsubs-pre-order-consent-background-image-cb578173463.jpg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+            #d1{
+                display: flex;
+                background-color: black;
+                height: 50px;
+                width: 100%;
+                position: absolute;
+                padding-top: 2px;
+                z-index: 5;
+                right: 2px;
+            }
+            #pr{
+                color: white;
+                font-size: 27px;
+                position: relative;
+                left: 100px;
+                top: 10px;
+            }
+            #side{
+                background-color: black;
+                height: 750px;
+                width: 700px;
+                opacity: 0.9;
+                box-shadow: 2px 2px 18px black;
+                border: 1px solid;
+                position: absolute;
+                left: 1px;
+                z-index: 2;
+            }
+            #i1{
+                z-index: 7;
+                height: 100px;
+                width: 300px;
+                position: absolute;
+                top: 350px;
+                left: 50px;
+            }
+            #ho{
+                color: whitesmoke;
+                font-size: 27px;
+                position: relative;
+                left: 170px;
+            }
+            #sel{
+                background-color: black;
+                color: whitesmoke;
+                height: 50px;
+                font-size: 25px;
+                border-style: solid;
+                border-color: black;
+            }
+            #st{
+                position: relative;
+                left: 220px;
+            }
+            #st1{
+                height: 50px;
+                background-color: black;
+                color: whitesmoke;
+                font-size: 25px;
+                border-style: solid;
+                border-color: black;
+            }
+            #live{
+                color: whitesmoke;
+                font-size: 25px;
+                position: relative;
+                left: 270px;
+                top: 10px;
+            }
+            #cat{
+                font-size: 27px;
+                color: whitesmoke;
+                position: relative;
+                left: 300px;
+                top: 8px;
+            }
+            #sea{
+                height: 20px;
+                width: 20px;
+                position: relative;
+                left: 350px;
+                top: 15px;
+            }
+            #try{
+                font-size: 25px;
+                color: whitesmoke;
+                position: relative;
+                left: 400px;
+                top: 10px;
+            }
+            #pro{
+                height: 40px;
+                width: 40px;
+                position: relative;
+                left: 450px;
+                top: 3px;
+            }
+            h1{
+                position: absolute;
+                top: 120px;
+                color: white;
+                z-index: 20;
+                left: 70px;
+            }
+            h4{
+                color: white;
+                position: absolute;
+                top: 200px;
+                z-index: 21;
+                left: 50px;
+            }
+            button{
+                background-color: skyblue;
+                position: absolute;
+                top: 250px;
+                left: 100px;
+                z-index: 22;
+                height: 28px;
+                font-size: 18px;
+                border-style: solid;
+                border-color: black;
+                border-radius: 5px;
+            }
+            button:hover{
+                background-color: darkblue;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="d1">
+            <div id="pr"><b>prime video</b></div>
+            <div id="ho"><select id="sel">
+                <option>Home</option>
+                <option>All</option>
+                <option>Movies</option>
+                <option>TV Shows</option>
+            </select></div>
+            <div id="st"><select id="st1">
+                <option>Store</option>
+                <option>All</option>
+                <option>Rent</option>
+                <option>Channels</option>
+            </select></div>
+            <div id="live">Live</div>
+            <div id="cat">Categories</div>
+            <div> <img id="sea" src="https://cdn-icons-png.flaticon.com/128/11741/11741045.png"></div>
+            <div id="try">Try for Free</div>
+            <div><img id="pro" src="https://cdn-icons-png.flaticon.com/128/149/149071.png"></div>
+        </div>
+       <b><h1>Welcome to Prime</h1></b>
+       <h4>Watch the latest movies,TV shows and award-winning amazon originals</h4>
+       <button type="submit">Sign in to join prime</button>
+        <div id="side"></div>
+        <img id="i1" src="https://www.pngmart.com/files/23/Prime-Video-Logo-PNG.png">
+    </body>
+</html>
